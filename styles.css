@@ -1,0 +1,132 @@
+body {
+  background: url("Windows_95_-_Clouds.png") no-repeat center fixed;
+  background-size: cover;
+  font-family: Tahoma, "MS Sans Serif", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.win-box {
+  width: 700px;
+  margin: 50px auto;
+  border: 3px solid #000;
+  background: #C0C0C0;
+  box-shadow: inset -2px -2px #fff, inset 2px 2px #808080;
+}
+
+.title-bar {
+  background: linear-gradient(to right, #000080, #1084d0);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 1px 1px 0 #00000080;
+}
+
+.content {
+  padding: 15px;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background: #C0C0C0;
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:active {
+  border-color: #808080 #fff #fff #808080;
+}
+
+fieldset {
+  width: 665px;
+  min-height: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #c0c0c0;
+  border: 2px solid #000;
+  box-shadow: inset -2px -2px #fff, inset 2px 2px #808080;
+  font-family: Tahoma, "MS Sans Serif", sans-serif;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+.xp-player {
+  position: relative;       /* contain absolute audio element */
+  margin: 15px auto 0 auto; /* center horizontally */
+  width: 150px;
+  padding: 4px;
+  background: #c0c0c0;
+  border: 2px solid #000;
+  box-shadow: inset -2px -2px #fff, inset 2px 2px #808080;
+  font-family: Tahoma, "MS Sans Serif", sans-serif;
+  user-select: none;
+  text-align: center;       /* center buttons inside */
+}
+
+.xp-player audio {
+  position: absolute;       /* remove from layout */
+  opacity: 0;               /* hide completely */
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+img{
+    width: 70px;
+}
+
+.controls {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.controls button {
+  margin: 0 3px;
+  padding: 3px 8px;
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  background: #c0c0c0;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: inset 1px 1px 0 white;
+}
+
+.controls button:active {
+  border-color: #808080 #fff #fff #808080;
+  box-shadow: inset -1px -1px 0 white;
+}
+
+marquee {
+  background: black;
+  color: lime;
+  padding: 5px;
+}
+
+button {
+  display: inline-block;
+  background: #C0C0C0;
+  border-color: #fff #808080 #808080 #fff;
+  color: black;
+  cursor: pointer;
+}
+
+header {
+  position: fixed; 
+  top: 0;
+  left: 10px;   /* space from the left edge */
+}
+
+header a {
+  color: navy;
+  text-decoration: none;
+}
